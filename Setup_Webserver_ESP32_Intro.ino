@@ -7,8 +7,8 @@ by Venkat @ AETOS */
 #include <ESPmDNS.h>
 
 // SSID & Password
-const char* ssid = "Mr Jasper";  // Enter your SSID here
-const char* password = "Danush21!";  //Enter your Password here
+const char* ssid = "IOTGR8";  // Enter your SSID here
+const char* password = "12345678";  //Enter your Password here
 
 WebServer server(80);  // Object of WebServer(HTTP port, 80 is defult)
 
