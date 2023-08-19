@@ -4,11 +4,11 @@
 #include <ESPmDNS.h>
 #include <DHT.h>
 
-const char *ssid = "IOTGR8";
-const char *password = "12345678";
+const char *ssid = "TIS";
+const char *password = "Tischool@2023";
 
 WebServer server(80);
-DHT dht(26, DHT11);
+DHT dht(4, DHT11);
 
 void handleRoot() {
   char msg[1500];
