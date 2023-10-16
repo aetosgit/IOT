@@ -4,9 +4,15 @@
 const char* ssid       = "TIS";
 const char* password   = "Tischool@2023";
 
-const char* ntpServer = "pool.ntp.org";
-const long  gmtOffset_sec = 3600;
-const int   daylightOffset_sec = 3600;
+// Old sketch illustrates how to set IST by offseting seconds for the variable gmtOffset_sec
+//const char* ntpServer = "pool.ntp.org";
+//const long  gmtOffset_sec = 3600;
+//const int   daylightOffset_sec = 3600;
+
+// New sketch illustrates how to get the IST from the zone server
+const char* ntpServer = "in.pool.ntp.org";
+const long  gmtOffset_sec = 0;
+const int   daylightOffset_sec = 19800; //GMT+5:30
 
 void printLocalTime()
 {
