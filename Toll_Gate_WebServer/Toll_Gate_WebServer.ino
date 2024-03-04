@@ -5,8 +5,8 @@
 #include "PageIndex.h"; //--> Include the contents of the User Interface Web page, stored in the same folder as the .ino file
 #define ServoPort D1   //--> Defining Servo Port
 
-const char* ssid = "AETOS";  // your SSID
-const char* password = "9176673062"; //WIFI Password
+const char* ssid = "TIS";  // your SSID
+const char* password = "Tischool@2023"; //WIFI Password
 
 Servo myservo;  //--> create servo object to control a servo
 ESP8266WebServer server(80);  //--> Server on port 80
